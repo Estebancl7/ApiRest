@@ -32,11 +32,11 @@
 <h1 class="text-center mt-5 mb-5">Calculo del Digito Verificador (RUT Chileno)</h1>
 <p class="text-center">Ingrese a continuacion su rut sin digito verficador</p>
 
-<form>
+<form method="POST" action="consumeRUT.php">
 <div class="form-group">
     <label for="exampleInputEmail1">Rut Sin Digito verificador</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ejemplo: 19717521">
-    <button class="button float-right btn btn-info" type="submit">Confirmar</button>
+    <input type="number" class="form-control" name="rutD" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ejemplo: 19717521">
+    <button class="button float-right btn btn-info">Confirmar</button>
   </div>
 
 </form>

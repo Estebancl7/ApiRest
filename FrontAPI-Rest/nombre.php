@@ -30,14 +30,14 @@
 
 <div class="container">
 <h1 class="text-center mt-5 mb-5">Nombre Completo</h1>
-<p class="text-center">A continuacion ingrese su nombre completo <b>¡Importante!</b> en el caso de poseer un apellido y/o nombre compuesto, escribalo con un guion (-)</p>
+<p class="text-center">A continuacion ingrese su nombre completo <b>¡Importante!</b> en el caso de poseer un apellido y/o nombre compuesto, escribalo con un guion (_)</p>
 
 
-<form>
+<form method="POST" action="consume.php">
 <div class="form-group">
-    <label for="exampleInputEmail1">Nombre Completo</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ejemplo: Andres Alejandro Del-Carmen Salazar">
-    <button class="button float-right btn btn-info" type="submit">Confirmar</button>
+    <label for="Nombre Completo">Nombre Completo</label>
+    <input type="text" class="form-control" name="nombre1" aria-describedby="ejemploNombre" placeholder="Ejemplo: Andres Alejandro Del_Carmen Salazar">
+    <button class="button float-right btn btn-info">Confirmar</button>
   </div>
 
 </form>
