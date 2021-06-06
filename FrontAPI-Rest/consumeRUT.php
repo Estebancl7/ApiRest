@@ -5,10 +5,9 @@
 $rutdiv= $_POST['rutD'];
 
 
-echo $rutdiv;
+$url="http://localhost:3000/rut?rut=" . $rutdiv;
 
-
-
-
+$data = json_decode(file_get_contents($url), true);
+print_r($data['rut']);
 
 ?>
