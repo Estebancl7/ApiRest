@@ -15,7 +15,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-info sticky-top p-3 aria-label">
         <div class="container">
-            <a class="navbar-brand" href="/ClientePhp/index.php" style="color: black;">Servicio API REST</a>
+            <a class="navbar-brand" href="index.php" style="color: black;">Servicio API REST</a>
             <button class="navbar-toggler border-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <ion-icon name="menu-outline"></ion-icon>
             </button>
@@ -23,9 +23,6 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item px-2">
-                        <a class="nav-link" href="/ClientePhp/index.php" style="text-align: center;">Inicio </a>
-                    </li>
                     <a href="nombre.php" class="btn btn-outline-light px-2" style="text-align: center; max-width: 850px;">Nombre Completo</a>
                     <a href="rut.php" class="btn btn-outline-light px-2" style="text-align: center; max-width: 850px;">Rut Verificador</a>
 
@@ -80,8 +77,8 @@
                     <p><em class="fas fa-check-circle"></em> Diego Salinas Gonzalez.</p>
                     <p><em class="fas fa-check-circle"></em> Esteban Tudela Ortiz.</p>
                     <p> <em class="fas fa-check-circle"></em> Paulo Vera Chacon.</p>
-                    <p> <em class="fas fa-check-circle"></em> Felipe Perez.</p>
-                    <p><em class="fas fa-check-circle"></em> Javier Cisternas.</p>
+                    <p> <em class="fas fa-check-circle"></em> Felipe Perez Cares.</p>
+                    <p><em class="fas fa-check-circle"></em> Javier Cisternas Cristi.</p>
                 </div>
             </div>
         </div>

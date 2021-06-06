@@ -30,11 +30,15 @@
 
 <div class="container">
 <h1 class="text-center mt-5 mb-5">Calculo del Digito Verificador (RUT Chileno)</h1>
-<p class="text-center">Ingrese a continuacion su rut sin digito verficador</p>
+<h5 class="mb-4">Instructivo de Uso</h5>
+<p>- Al ingresar un numero recuerde <b>confirmar</b> los datos primero, para luego desplegarlos con el boton <b>Mostrar Datos</b>.</p>
+<p>- Recuerde que al ingresar un rut es en <b>formato chileno</b>, sin guion ni puntos.</p> 
+<p>- No se aceptan numeros negativos ni letras, ya que si lo hace le aparecera <b>Parametro Invalido</b>.</p>
+<h5 class="text-center mt-5">Ingrese a continuacion su rut sin digito verficador:</h5>
 
 <form method="POST" action="rut.php">
 <div class="form-group">
-    <label for="exampleInputEmail1">Rut Sin Digito verificador</label>
+    <label for="exampleInputEmail1"></label>
     <input type="number" class="form-control" name="rutD" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ejemplo: 19717521">
     <button class="button float-right btn btn-info mt-1"> Confirmar</button>    
 </div>

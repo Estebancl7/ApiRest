@@ -30,9 +30,11 @@
 
 <div class="container">
 <h1 class="text-center mt-5 mb-5">Nombre Completo</h1>
-<p class="text-center">A continuacion ingrese su nombre completo <b>¡Importante!</b> en el caso de poseer un apellido y/o nombre compuesto, escribalo con un guion (_)</p>
-
-
+<h5 class="mb-4">Instructivo de Uso</h5>
+<p>- Esta seccion le dejara ingresar su nombre y apellidos con un minimo de 1 nombre y 2 apellidos (sean o no compuestos), en el caso de no cumplir con esto arrojara <b>Parametro Invalido</b>.</p>
+<p>- En el caso de poseer un <b>apellido y/o nombre compuesto</b>, escribalo con un guion (_) como se muestra a continuacion: <b>Ej: Del Carmen -> Del_Carmen</b>.</p>
+<p>- Recuerde confirmar sus datos con el boton <b>"Confirmar"</b> y despues deplegarlos con el boton <b>"Mostrar datos"</b>.</p>
+<h5 class="text-center mt-5">Ingrese  a continuacion ingrese su nombre completo:</h5>
 <form method="POST" action="nombre.php">
 <div class="form-group">
     <label for="Nombre Completo">Nombre Completo</label>
