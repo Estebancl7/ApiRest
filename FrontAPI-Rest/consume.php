@@ -11,9 +11,13 @@ $nombreCO = str_replace ($aux1, $aux2, $nombreCO1);
 
 $url="http://localhost:3000/nombre?nombre=" . $nombreCO;
 
-$data = json_decode(file_get_contents($url), true);
+$data = json_decode(file_get_contents($url),true);
 
-print_r($data);
+//print_r($data);
+
+foreach($data as $key => $value){
+    echo $key . ":" . $value . "<br>";
+}
 
 
 

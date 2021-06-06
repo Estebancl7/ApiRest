@@ -36,10 +36,14 @@
 <div class="form-group">
     <label for="exampleInputEmail1">Rut Sin Digito verificador</label>
     <input type="number" class="form-control" name="rutD" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ejemplo: 19717521">
-    <button class="button float-right btn btn-info"> Confirmar</button>    
+    <button class="button float-right btn btn-info mt-1"> Confirmar</button>    
 </div>
 
-<div class="align-center mt-4">
+</form>
+</div>
+
+
+<div class="container d-flex justify-content-center my-5">
 <button type="button" class="button btn btn-info mt-4" data-toggle="modal" data-target="#modal1">Mostrar Resultados</button>
 
     <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -71,14 +75,6 @@
 
 </div>
 
-
-
-
-
-
-
-</form>
-</div>
 
 
 </div>

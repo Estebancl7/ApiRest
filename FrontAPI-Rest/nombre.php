@@ -37,7 +37,7 @@
 <div class="form-group">
     <label for="Nombre Completo">Nombre Completo</label>
     <input type="text" class="form-control" name="nombre1" aria-describedby="ejemploNombre" placeholder="Ejemplo: Andres Alejandro Del_Carmen Salazar">
-    <button class="button float-right btn btn-info">Confirmar</button>
+    <button class="float-right btn btn-info mt-1">Confirmar</button>
     
   </div>
 
@@ -46,8 +46,12 @@
 </form>
 </div>
 
-<div class="container mt-4">
-<button type="button" class="button btn btn-info mt-4 "data-toggle="modal" data-target="#modal1" style="grid: display; margin:auto;">Mostrar Resultados</button>
+
+
+<div class="container d-flex justify-content-center my-5">
+
+
+<button type="button" class="button btn btn-info mt-4 "data-toggle="modal" data-target="#modal1">Mostrar Resultados</button>
 
     <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered" role="document">
