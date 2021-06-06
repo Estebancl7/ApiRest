@@ -22,7 +22,7 @@
         <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Nosotros</a>
+        <a class="nav-link" href="nosotros.php">Nosotros</a>
       </li>
       
       
