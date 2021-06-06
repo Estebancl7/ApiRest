@@ -1,4 +1,4 @@
-const { Router } = require("express")
+const { Router, json } = require("express")
 const router = Router();
 
 router.get('/', (req, res) => {
@@ -24,7 +24,7 @@ router.get('/nombre', (req, res) => {
     }
 
 
-    if (aux.length < 2) {
+    if (aux.length <= 2) {
         console.log("parametro mal ingresado :c");
 
     } else {
@@ -38,26 +38,26 @@ router.get('/nombre', (req, res) => {
         }
     }
 
+    var json = {};
 
-    if (aux.length == 3) {
-        res.json({ "Nombre": aux[0], "Apellido Paterno": aux[1], "Apellido Materno": aux[2] });
 
+    if (aux.length <= 2) {
+        res.json('Parametro mal ingresado');
     } else {
-        if (aux.length == 4) {
-            res.json({ "Nombre 1": aux[0], "Nombre 2": aux[1], "Apellido Paterno": aux[2], "Apellido Materno": aux[3] });
-        } else {
-            if (aux.length == 5) {
-                res.json({ "Nombre 1": aux[0], "Nombre 2": aux[1], "Nombre 3": aux[2], "Apellido Paterno": aux[3], "Apellido Materno": aux[4] });
-            } else {
-                if (aux.length <= 2) {
-                    res.json('Parametro mal ingresado: "Un Nombre Completo en Chile posee a lo menos un Nombre y Dos Apellidos');
+        if (aux.length >= 3) {
+            for (let i = 0, j = 1; i < (aux.length) - 2; i++, j++) {
+                json['Nombre ' + j] = aux[i];
 
-
-                }
             }
-
+            json['Apellido Paterno'] = aux[aux.length - 2];
+            json['Apellido Materno'] = aux[aux.length - 1];
         }
+
+        res.json(json);
     }
+
+
+
 
 })
 

@@ -13,7 +13,7 @@ $url="http://localhost:3000/nombre?nombre=" . $nombreCO;
 
 $data = json_decode(file_get_contents($url),true);
 
-//print_r($data);
+
 
 foreach($data as $key => $value){
     echo $key . ":" . $value . "<br>";
