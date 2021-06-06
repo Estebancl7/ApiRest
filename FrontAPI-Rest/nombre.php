@@ -33,15 +33,51 @@
 <p class="text-center">A continuacion ingrese su nombre completo <b>¡Importante!</b> en el caso de poseer un apellido y/o nombre compuesto, escribalo con un guion (_)</p>
 
 
-<form method="POST" action="consume.php">
+<form method="POST" action="nombre.php">
 <div class="form-group">
     <label for="Nombre Completo">Nombre Completo</label>
     <input type="text" class="form-control" name="nombre1" aria-describedby="ejemploNombre" placeholder="Ejemplo: Andres Alejandro Del_Carmen Salazar">
     <button class="button float-right btn btn-info">Confirmar</button>
+    
   </div>
+
+
 
 </form>
 </div>
+
+<div class="container mt-4">
+<button type="button" class="button btn btn-info mt-4 "data-toggle="modal" data-target="#modal1" style="grid: display; margin:auto;">Mostrar Resultados</button>
+
+    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Nombre Completo</h5>
+             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+             </button>
+          </div>
+          <div class="modal-body text-center">
+          <p>Su nombre ordenado es el siguiente:</p>
+
+          <?php 
+          
+          include( 'consume.php' ); ?>
+          
+          </div>
+              <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar </button>
+              </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+</div>
+
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

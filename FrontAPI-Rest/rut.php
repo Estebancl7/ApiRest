@@ -32,14 +32,55 @@
 <h1 class="text-center mt-5 mb-5">Calculo del Digito Verificador (RUT Chileno)</h1>
 <p class="text-center">Ingrese a continuacion su rut sin digito verficador</p>
 
-<form method="POST" action="consumeRUT.php">
+<form method="POST" action="rut.php">
 <div class="form-group">
     <label for="exampleInputEmail1">Rut Sin Digito verificador</label>
     <input type="number" class="form-control" name="rutD" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ejemplo: 19717521">
-    <button class="button float-right btn btn-info">Confirmar</button>
-  </div>
+    <button class="button float-right btn btn-info"> Confirmar</button>    
+</div>
+
+<div class="align-center mt-4">
+<button type="button" class="button btn btn-info mt-4" data-toggle="modal" data-target="#modal1">Mostrar Resultados</button>
+
+    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Calculo del digito verificador</h5>
+             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+             </button>
+          </div>
+          <div class="modal-body text-center">
+          <p>Su RUT con Digito Verficador es el siguiente:</p>
+
+          <?php 
+          
+          include( 'consumeRUT.php' ); ?>
+          
+          </div>
+              <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar </button>
+              </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+</div>
+
+
+
+
+
+
 
 </form>
+</div>
+
+
 </div>
 
 

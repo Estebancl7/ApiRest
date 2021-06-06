@@ -48,7 +48,14 @@ router.get('/nombre', (req, res) => {
         } else {
             if (aux.length == 5) {
                 res.json({ "Nombre 1": aux[0], "Nombre 2": aux[1], "Nombre 3": aux[2], "Apellido Paterno": aux[3], "Apellido Materno": aux[4] });
+            } else {
+                if (aux.length <= 2) {
+                    res.json('Parametro mal ingresado: "Un Nombre Completo en Chile posee a lo menos un Nombre y Dos Apellidos');
+
+
+                }
             }
+
         }
     }
 
