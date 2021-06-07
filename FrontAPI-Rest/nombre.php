@@ -19,7 +19,7 @@
       <li class="nav-item active">
         <a class="nav-link" href="index.php">Inicio <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item active">
         <a class="nav-link" href="nosotros.php">Nosotros</a>
       </li>
       
@@ -31,9 +31,9 @@
 <div class="container">
 <h1 class="text-center mt-5 mb-5">Nombre Completo</h1>
 <h5 class="mb-4">Instructivo de Uso</h5>
-<p>- Esta seccion le dejara ingresar su nombre y apellidos con un minimo de 1 nombre y 2 apellidos (sean o no compuestos), en el caso de no cumplir con esto arrojara <b>Parametro Invalido</b>.</p>
-<p>- En el caso de poseer un <b>apellido y/o nombre compuesto</b>, escribalo con un guion (_) como se muestra a continuacion: <b>Ej: Del Carmen -> Del_Carmen</b>.</p>
-<p>- Recuerde confirmar sus datos con el boton <b>"Confirmar"</b> y despues deplegarlos con el boton <b>"Mostrar datos"</b>.</p>
+<p>- Esta seccion le dejara ingresar su nombre y apellidos con un minimo de 1 nombre y 2 apellidos (sean o no compuestos), en el caso de no cumplir con esto arrojara <strong>Parametro Invalido</strong>.</p>
+<p>- En el caso de poseer un <strong>Apellido y/o Nombre compuesto</strong>, escribalo con un guion (_) como se muestra a continuacion: <strong>Ej: Del Carmen -> Del_Carmen</strong>.</p>
+<p>- Recuerde confirmar sus datos con el boton <strong>"Confirmar"</strong> y despues deplegarlos con el boton <strong>"Mostrar datos"</strong>.</p>
 <h5 class="text-center mt-5">Ingrese  a continuacion ingrese su nombre completo:</h5>
 <form method="POST" action="nombre.php">
 <div class="form-group">

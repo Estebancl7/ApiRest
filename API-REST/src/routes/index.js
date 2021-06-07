@@ -11,7 +11,6 @@ router.get('/', (req, res) => {
 router.get('/nombre', (req, res) => {
     var nombre = req.query.nombre;
     var aux = nombre.split(" ");
-    var q;
     console.log(aux);
     for (let i = 0; i < aux.length; i++) {
         for (let j = 0; j < aux[i].length; j++) {

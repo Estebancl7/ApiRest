@@ -15,7 +15,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-info sticky-top p-3 aria-label">
         <div class="container">
-            <a class="navbar-brand" href="index.php" style="color: black;">Servicio API REST</a>
+            <a class="navbar-brand" href="index.php" style="color: white;">Servicio API REST</a>
             <button class="navbar-toggler border-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <ion-icon name="menu-outline"></ion-icon>
             </button>
@@ -68,7 +68,7 @@
             <br>
             <div class="row">
                 <div class="col-6 pl-5">
-                    <P>Este ser&aacute el grupo de trabajo que estar&aacute a cargo del desarrollo de los proyectos a realizar durante el semestre acÃ¡demico del aÃ±o 2021 de la asignatura <strong>"Redes y Comunicaci&oacuten de datos"</strong>.
+                    <P>Este ser&aacute el grupo de trabajo que estara a cargo del desarrollo de los proyectos a realizar durante el semestre academico del año 2021 de la asignatura <strong>"Redes y Comunicaci&oacuten de datos"</strong>.
                     </P>
                     <img src="img/Grafos.png" alt="" height="180px">
                 </div>
@@ -91,7 +91,7 @@
                 <div class="content-center">
                     <div class="row my-1">
                         <div class="col d-flex justify-content-center">
-                            <a href="https://github.com/Estebancl7/ApiRest" class="text-white">
+                            <a href="" class="text-white">
                                 <em class="fab fa-github"></em>
                             </a>
                         </div>

@@ -19,7 +19,7 @@
       <li class="nav-item active">
         <a class="nav-link" href="index.php">Inicio <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item active">
         <a class="nav-link" href="nosotros.php">Nosotros</a>
       </li>
       
@@ -31,9 +31,9 @@
 <div class="container">
 <h1 class="text-center mt-5 mb-5">Calculo del Digito Verificador (RUT Chileno)</h1>
 <h5 class="mb-4">Instructivo de Uso</h5>
-<p>- Al ingresar un numero recuerde <b>confirmar</b> los datos primero, para luego desplegarlos con el boton <b>Mostrar Datos</b>.</p>
-<p>- Recuerde que al ingresar un rut es en <b>formato chileno</b>, sin guion ni puntos.</p> 
-<p>- No se aceptan numeros negativos ni letras, ya que si lo hace le aparecera <b>Parametro Invalido</b>.</p>
+<p>- Al ingresar un numero recuerde <strong>confirmar</strong> los datos primero, para luego desplegarlos con el boton <strong>Mostrar Datos</strong>.</p>
+<p>- Recuerde que al ingresar un rut es en <strong>formato chileno</strong>, sin guion ni puntos.</p> 
+<p>- No se aceptan numeros negativos ni letras, ya que si lo hace le aparecera <strong>Parametro Invalido</strong>.</p>
 <h5 class="text-center mt-5">Ingrese a continuacion su rut sin digito verficador:</h5>
 
 <form method="POST" action="rut.php">
